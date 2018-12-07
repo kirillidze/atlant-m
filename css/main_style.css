@@ -111,21 +111,22 @@
   font-size: 36pt;
   font-weight: bold;
 }
-.main__promo-item_1x3 {
+.main__promo-item_1x2 {
   -ms-grid-row: 1;
   -ms-grid-column: 4;
-  grid-row: span 3;
+  -ms-grid-row-span: 2;
+  grid-row: span 2;
 }
-.main__promo-item_1x3 .main__promo-text {
+.main__promo-item_1x2 .main__promo-text {
   color: white;
   text-transform: uppercase;
   font-size: 18pt;
   top: 30%;
 }
-.main__promo-item_1x3 .main__promo-text .main__various-text:first-of-type {
+.main__promo-item_1x2 .main__promo-text .main__various-text:first-of-type {
   font-weight: bold;
 }
-.main__promo-item_1x3 .main__promo-text .main__various-text:nth-of-type(2) {
+.main__promo-item_1x2 .main__promo-text .main__various-text:nth-of-type(2) {
   padding: 5px 10px;
   background-color: #ffc000;
   color: black;
@@ -133,7 +134,7 @@
   border-radius: 5px;
   position: relative;
 }
-.main__promo-item_1x3 .main__promo-text .main__various-text:nth-of-type(2)::before {
+.main__promo-item_1x2 .main__promo-text .main__various-text:nth-of-type(2)::before {
   content: "";
   position: absolute;
   left: 65px;
@@ -144,7 +145,7 @@
   border-top: 18px solid transparent;
   border-bottom: 19px solid transparent;
 }
-.main__promo-item_1x3 .main__promo-text .main__various-text:nth-of-type(2)::after {
+.main__promo-item_1x2 .main__promo-text .main__various-text:nth-of-type(2)::after {
   content: "";
   position: absolute;
   width: 8px;
@@ -154,7 +155,7 @@
   top: 14px;
   background-color: black;
 }
-.main__promo-item_1x3 .main__promo-text .main__various-text:last-of-type {
+.main__promo-item_1x2 .main__promo-text .main__various-text:last-of-type {
   font-size: 10pt;
 }
 .main__promo-item_yellow {
@@ -351,11 +352,11 @@
   .main__promo-item:nth-child(2) {
     grid-row: horiz-line 2;
   }
-  .main__promo-item_1x3 {
+  .main__promo-item_1x2 {
     grid-column: vert-line 1;
     grid-row: horiz-line 2;
   }
-  .main__promo-item_1x3 .main__promo-image {
+  .main__promo-item_1x2 .main__promo-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -450,7 +451,7 @@
   .main__promo-item_black {
     height: 165px;
   }
-  .main__promo-item_1x3 {
+  .main__promo-item_1x2 {
     height: 385px;
   }
   .main__promo-item:nth-child(2) {
