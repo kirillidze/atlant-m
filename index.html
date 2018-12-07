@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ATLANT-M</title>
+	<meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1">
+	<link rel="icon" href="img/favicon.ico" type="image/png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main_style.css">
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body class="page">
+	<header class="header">
+		<div class="header__content">
+			<a href="#" class="header__logo-link">
+				<img src="img/Logo.png" alt="main logo" class="header__logo">
+			</a>
+			<div class="header__info">
+				<div class="header__dealers">
+					<span class="header__dealers-label">Выбрать дилера:</span>
+					<select id="dealers-list" name="dealer" class="header__dealers-list">
+						<option value="1" data-imagesrc="img/land-rover.png">Атлант-М Британия</option>
+						<option value="2" data-imagesrc="img/vw.png">Атлант-М на Машиностроителей</option>
+						<option value="3" data-imagesrc="img/vw.png">Атлант-М Сухарево</option>
+						<option value="4" data-imagesrc="img/vw.png">Атлант-М Уручье</option>
+						<option value="5" selected="selected" data-imagesrc="img/mazda.png">Атлант-М Холпи</option>
+						<option value="6" data-imagesrc="img/kia.png">Атлант-М на Независимости</option>
+						<option value="7" data-imagesrc="img/ford.png">Атлант-М Боровая</option>
+					</select>
+				</div>
+				<div class="header__contacts">
+					<div class="header__phone">+375 (17) 201-01-01</div>
+					<div class="header__address">г.Минск, дер.Боровая, д.2</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="main">
+		<div class="main__promo">
+			<div class="main__promo-content">
+				<div class="main__promo-item main__promo-item_2x1">
+					<div class="main__promo-text">
+						<span class="main__various-text">20-22 января</span><br>
+						большая распродажа<br>
+						в <span class="main__various-text">Атлант-М</span>
+					</div>
+					<img class="main__promo-image" src="img/auto.jpg" title="Распродажа" alt="Реклама распродажи">
+				</div>
+				<div class="main__promo-item">
+					<img class="main__promo-image" src="img/oil.jpg" title="СТО" alt="Фото СТО">
+				</div>
+				<div class="main__promo-item main__promo-item_1x3">
+					<img class="main__promo-image" src="img/sale.jpg" title="Скидки" alt="Фото скидок">
+					<div class="main__promo-text">
+						<span class="main__various-text">Скидки до</span>
+						<span class="main__various-text">90%</span><br>
+						<span class="main__various-text">Сервис &bull; Запчасти &bull; Аксессуары</span>
+					</div>
+				</div>
+				<div class="main__promo-item">
+					<img class="main__promo-image" src="img/purchase.jpg" title="Продажи" alt="Фото продажи">
+				</div>
+				<div class="main__promo-item main__promo-item_yellow">
+					<div class="main__promo-text">
+						<span class="main__various-text">Только 3 дня!</span><br>
+						<span class="main__various-text">Специальные цены</span><br>
+						у дилеров Атлант-М
+					</div>
+				</div>
+				<div class="main__promo-item main__promo-item_black">
+					<div class="main__promo-text">
+						Выгода до<br>
+						<span class="main__various-text">7000 BYN</span><br>
+						на новые автомобили
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main__navigate">
+			<nav class="main__navigate-content">
+				<div class="main__nav-item" title="Новые автомобили">
+					<img class="main__navigate-image" src="img/newcar.png" alt="Иконка нового авто">
+					<div class="main__navigate-text">Новые&nbsp;автомобили</div>
+				</div>
+				<div class="main__nav-item" title="Автомобили с пробегом">
+					<img class="main__navigate-image" src="img/usedcar.png" alt="Иконка авто с пробегом">
+					<div class="main__navigate-text">Автомобили&nbsp;с&nbsp;пробегом</div>
+				</div>
+				<div class="main__nav-item" title="Финансовый сервис">
+					<img class="main__navigate-image" src="img/credit.png" alt="Иконка кредита">
+					<div class="main__navigate-text">Финансовый&nbsp;сервис</div>
+				</div>
+				<div class="main__nav-item" title="Услуги сервиса">
+					<img class="main__navigate-image" src="img/service.png" alt="Иконка сервиса">
+					<div class="main__navigate-text">Услуги&nbsp;сервиса</div>
+				</div>
+				<div class="main__nav-item" title="Запасные части">
+					<img class="main__navigate-image" src="img/parts.png" alt="Иконка запчастей">
+					<div class="main__navigate-text">Запасные&nbsp;части</div>
+				</div>
+				<div class="main__nav-item" title="Дополнительное оборудование">
+					<img class="main__navigate-image" src="img/wheel.png" alt="Иконка доп.оборудования">
+					<div class="main__navigate-text">Дополнительное&nbsp;оборудование</div>
+				</div>
+			</nav>
+		</div>
+		<div class="main__proposal">
+			<div class="main__proposal-content">
+				<h2 class="main__proposal-title">Отобразить предложения по бренду</h2>
+				<div class="main__proposal-item" title="Volkswagen">
+					<img class="main__proposal-image" src="img/vw.png" alt="Иконка VW">
+					<div class="main__proposal-text">
+						<span class="main__proposal-name">Volkswagen</span> <br>
+						7 спецпредложений
+					</div>
+				</div>
+				<div class="main__proposal-item" title="Ford">
+					<img class="main__proposal-image" src="img/ford.png" alt="Иконка Ford">
+					<div class="main__proposal-text">
+						<span class="main__proposal-name">Ford</span> <br>
+						12 спецпредложений
+					</div>
+				</div>
+				<div class="main__proposal-item" title="Mazda">
+					<img class="main__proposal-image" src="img/mazda.png" alt="Иконка Mazda">
+					<div class="main__proposal-text">
+						<span class="main__proposal-name">Mazda</span> <br>
+						8 спецпредложений
+					</div>
+				</div>
+				<div class="main__proposal-item" title="KIA">
+					<img class="main__proposal-image" src="img/kia.png" alt="Иконка KIA">
+					<div class="main__proposal-text">
+						<span class="main__proposal-name">KIA</span> <br>
+						14 спецпредложений
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main__news">
+			<div class="main__news-content">
+				<div class="main__news-item">
+					<img src="img/news-img.jpg" alt="" class="main__news-image">
+					<h3 class="main__news-title">Финальное предложение года от Mazda</h3>
+					<div class="main__news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nobis, suscipit ipsum quas praesentium rem vero placeat excepturi incidunt, enim! Eius nihil, libero delectus officia deleniti excepturi a nisi saepe.</div>
+					<div class="main__news-button">Подробнее</div>
+				</div>
+				<div class="main__news-item">
+					<img src="img/news-img.jpg" alt="" class="main__news-image">
+					<h3 class="main__news-title">Идеальный момент для покупки. Распродажа склада Volkswagen.</h3>
+					<div class="main__news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos iure esse mollitia aperiam voluptatem totam omnis, minus sit autem, eos animi, atque veritatis quasi voluptas est ex consequuntur vel cumque fuga, magnam praesentium repudiandae. In accusantium nihil fugit itaque voluptate?</div>
+					<span class="main__news-button">Подробнее</span>
+				</div>
+				<div class="main__news-item">
+					<img src="img/news-img.jpg" alt="" class="main__news-image">
+					<h3 class="main__news-title">Грандиозная распродажа склада 2016 года выпуска!</h3>
+					<div class="main__news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quia quis adipisci, dolor ex commodi doloremque quasi ipsum! Minus voluptate tenetur vitae, deleniti asperiores ipsam consequatur praesentium quisquam accusamus maxime pariatur.</div>
+					<span class="main__news-button">Подробнее</span>
+				</div>
+				<div class="main__news-item">
+					<img src="img/news-img.jpg" alt="" class="main__news-image">
+					<h3 class="main__news-title">Выгодные предложения года от KIA.</h3>
+					<div class="main__news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo mollitia, aperiam quia quod quas neque dolore consequatur doloremque laudantium tenetur.</div>
+					<span class="main__news-button">Подробнее</span>
+				</div>
+				<div class="main__news-item">
+					<img src="img/news-img.jpg" alt="" class="main__news-image">
+					<h3 class="main__news-title">Финальное предложение года от Mazda.</h3>
+					<div class="main__news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt voluptatum, ipsam doloribus numquam, quas sint voluptate dicta deleniti tempore fugiat saepe laudantium adipisci voluptates quisquam delectus, asperiores consequatur odit! Quam, quisquam, voluptas. Sed, et suscipit?</div>
+					<span class="main__news-button">Подробнее</span>
+				</div>
+				<div class="main__news-item">
+					<img src="img/news-img.jpg" alt="" class="main__news-image">
+					<h3 class="main__news-title">Финальное предложение года от Mazda.</h3>
+					<div class="main__news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus tenetur voluptates dolores. Aliquam, facilis, nobis, eligendi deleniti ducimus veniam, doloremque cupiditate amet omnis sit voluptates excepturi temporibus autem et aut.45</div>
+					<span class="main__news-button">Подробнее</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="footer__main">
+			<div class="footer__main-content">
+				<div class="footer__info">
+					<h2 class="footer__title">Атлант-М</h2>
+					<div class="footer__text">
+						<p>Информационно-сервисный портал "Атлант-М Международный автомобильный холдинг" &copy; 2007-2017 Атлант-М</p>
+						<p>Информация, представленная на сайте не является договором публичной оферты.</p>
+					</div>
+				</div>
+				<div class="footer__dealers">
+					<h2 class="footer__title">Дилеры</h2>
+					<ul class="footer__dealers-links">
+						<li class="footer__dealers-item"><a class="link" href="#">Атлант-М на Машиностроителей</a></li>
+						<li class="footer__dealers-item"><a class="link" href="#">Атлант-М Сухарево</a></li>
+						<li class="footer__dealers-item"><a class="link" href="#">Атлант-М Уручье</a></li>
+						<li class="footer__dealers-item"><a class="link" href="#">Атлант-М Холпи</a></li>
+						<li class="footer__dealers-item"><a class="link" href="#">Атлант-М на Независимости</a></li>
+						<li class="footer__dealers-item"><a class="link" href="#">Атлант-М Боровая Ford</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="footer__dev">
+			<div class="footer__dev-content">
+				<div class="footer__text">
+					Дизайн и создание сайта - <a class="link" href="#">AshwoodCreative</a> &copy; 2017
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
