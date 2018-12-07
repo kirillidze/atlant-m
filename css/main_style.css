@@ -99,6 +99,8 @@
   color: white;
   text-transform: uppercase;
   font-size: 28pt;
+  top: 30%;
+  left: 8%;
 }
 .main__promo-item_2x1 .main__promo-text .main__various-text:first-of-type {
   display: inline-block;
@@ -123,6 +125,7 @@
   text-transform: uppercase;
   font-size: 18pt;
   top: 30%;
+  left: 8%;
 }
 .main__promo-item_1x2 .main__promo-text .main__various-text:first-of-type {
   font-weight: bold;
@@ -164,12 +167,16 @@
   -ms-grid-column: 2;
   background-color: #ffc000;
 }
-.main__promo-item_yellow .main__various-text:first-of-type {
+.main__promo-item_yellow .main__promo-text {
+  top: 27%;
+  left: 18%;
+}
+.main__promo-item_yellow .main__promo-text .main__various-text:first-of-type {
   text-transform: uppercase;
   font-size: 17pt;
   font-weight: bold;
 }
-.main__promo-item_yellow .main__various-text:nth-of-type(2) {
+.main__promo-item_yellow .main__promo-text .main__various-text:nth-of-type(2) {
   font-size: 13pt;
   font-weight: bold;
 }
@@ -179,7 +186,11 @@
   background-color: black;
   color: white;
 }
-.main__promo-item_black .main__various-text {
+.main__promo-item_black .main__promo-text {
+  top: 27%;
+  left: 18%;
+}
+.main__promo-item_black .main__promo-text .main__various-text {
   font-size: 30pt;
   font-weight: bold;
   color: #ffc000;
